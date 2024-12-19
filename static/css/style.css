@@ -1,0 +1,13 @@
+.product-image {
+    width: 100%;
+    height: auto;
+    max-width: 200px; /* Adjust as needed */
+    margin-bottom: 10px;
+}
+.product-image {
+    width: 100%; /* Makes the image responsive */
+    max-width: 250px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: adds rounded corners */
+    margin-bottom: 10px; /* Space below the image */
+}
