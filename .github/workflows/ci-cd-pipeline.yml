@@ -31,3 +31,8 @@ jobs:
         run: |
           echo "Deploying to production server..."
           # Add your deployment commands here
+
+      - name: Run Bandit
+        run: |
+          pip install bandit
+          bandit -r .
